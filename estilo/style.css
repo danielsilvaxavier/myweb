@@ -1,0 +1,52 @@
+body{
+   background-color: MidnightBlue;
+  
+}  
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgoldenrod;
+    text-align: center;
+
+}
+.bod{
+    font-family: monospace;
+    color: rgb(238, 134, 7);
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding: 5% ;
+    background-color:rgb(31, 52, 172);
+    border-color: goldenrod ;
+    border-radius: 5% ;
+    border-style: inset;
+    border-width: 5px ;
+    width: 200px ;
+    height: 300px;
+}
+.title{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:35px;
+    color:rgb(238, 134, 7);
+    text-decoration: underline;
+}
+.log{
+    
+    text-align: center;
+    
+}
+.but{
+    font-family: monospace;
+    font-size: 18pt;
+    padding: 5%;
+    margin-top: 15% ;
+    border-radius: 25% ;
+    background-image: linear-gradient(to right,chocolate , goldenrod );
+
+}
+input{
+    background-color: rgba(199, 198, 198, 0.897);
+}

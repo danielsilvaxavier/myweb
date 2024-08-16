@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        :root{
+            --major:"Major Mono Display", monospace;
+            --graduate:"Graduate", serif;
+        }
+        header{
+            padding: 50px;
+        }
+        main{
+            max-width: 1400px;
+            min-width: 220px;
+        }
+        section{
+            background-color: #fff;
+            max-width: 1700px;
+            min-width: 220px;
+            margin: auto;
+        }
+        h1{
+            font-size: 3em;
+            margin-top: 0%;
+            padding-bottom: 0%;
+        }
+        #h{
+            color: rgba(0, 0, 0, 0.877);
+            font-size: 2em;
+        }
+        #p{
+            font-family: var(--graduate);
+            color: #fff;
+            text-align: center;
+            padding: 0%;
+
+        }
+        h2{
+            color:rgb(0, 0, 0);
+        }
+        h3{
+            color: #ED9C30;
+            text-align: center;
+        }
+        form{
+            background-color:rgb(238, 241, 243);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+            margin: auto;
+            padding:20px;
+            max-width: 500px;
+            min-height: 200px;
+            text-align: start;
+        }
+        #not{
+            font-size: 0.7em;
+            color: red;
+            text-decoration: underline;
+            text-align: justify;
+            text-indent: 0%;
+            padding-top: 3%;
+        }
+        form button{
+            height: 30px;
+            width: 150px;
+            margin-left: 10px ;
+            margin-top: 10px;
+            border: groove, #0000009a;
+            background-image: linear-gradient(to right, rgba(110, 110, 110, 0.938), rgb(37, 37, 37));
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1em;
+        }
+        strong{
+            color:rgba(0, 0, 0, 0.884);
+            text-decoration: underline;
+        }
+        footer a{
+            color: #ED9C30;
+            text-decoration: none;
+        }
+       
+    </style>
+   
+    <title>Freedback</title>
+</head>
+<body>
+    <header>
+        <h1>Fale com a nossa comunidade!</h1>
+        <p id="p">Estamos Sempre Atentos aos Vossos Feedback! &#x1F970;</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a><a href="login.html" id="up">Sing up</a><a href="login.html">Sing in</a>
+    </nav>
+    <main>
+        <h1 id="h">Feedback - Programator: Seu Papel na Evolução da Nossa Plataforma</h1>
+        <p>Bem-vindo à seção de Feedback do Programator! No Programator, acreditamos que a melhoria contínua é a chave para oferecer uma experiência excepcional aos nossos usuários. Por isso, sua opinião é fundamental para nós.</p>
+
+        <h2>Como Funciona:</h2>
+
+        <p>Quando você acessa a página de Feedback, encontra um formulário simples e direto. Queremos saber sua opinião sincera sobre sua experiência com nosso site. Aqui está o que você pode fazer:</p>
+
+        <p><strong>Relatar Problemas:</strong> Caso tenha encontrado algum bug ou erro enquanto navegava, descreva o problema com o máximo de detalhes possível. Isso nos ajudará a identificar e corrigir falhas rapidamente. Se puder, inclua informações como o navegador que estava usando e o passo a passo para reproduzir o problema.</p>
+
+        <p><strong>Sugerir Melhorias:</strong> Tem uma ideia que pode tornar nossa plataforma ainda melhor? Compartilhe suas sugestões conosco. Estamos sempre em busca de inovações que possam melhorar sua experiência.</p>
+
+        <p><strong>Avaliar Funcionalidades:</strong> Se algum recurso do site não está funcionando conforme o esperado ou se você acha que algo poderia ser aprimorado, informe-nos. Seu feedback nos ajuda a ajustar e otimizar nossas funcionalidades para atender melhor às suas necessidades.</p>   
+        
+        <h2>O Que Acontece com Seu Feedback:</h2>
+
+        <p><strong>Recebimento e Análise:</strong> Assim que enviamos seu feedback, nossa equipe o analisa com atenção. Todos os comentários e sugestões são categorizados e priorizados para avaliação.</p>
+
+        <p><strong>Implementação de Melhorias:</strong> Com base no feedback recebido, trabalhamos nas melhorias e correções necessárias. Algumas alterações podem ser implementadas rapidamente, enquanto outras podem exigir um pouco mais de tempo.</p>
+
+        <p><strong>Atualizações:</strong> Mantemos nossos usuários informados sobre as mudanças e melhorias realizadas. A transparência é essencial para nós, e queremos garantir que você veja como suas sugestões estão impactando a plataforma.</p>
+
+        <h2>Por Que Seu Feedback É Importante:</h2>
+
+        <p>Seu feedback não apenas nos ajuda a resolver problemas e a implementar melhorias, mas também nos permite entender melhor suas necessidades e expectativas. Ao participar desse processo, você se torna uma parte ativa da evolução do Programator. Agradecemos por sua colaboração e por ajudar a construir uma plataforma mais eficiente e amigável.</p>
+
+        <p>Não hesite em nos enviar seu feedback a qualquer momento. Estamos aqui para ouvir e fazer do Programator um lugar cada vez melhor para todos.</p>
+        <section>
+            <form action="#">
+                <h3>Algum problema?⚠️</h3>
+                <label for="sim">SIM</label>
+                <input type="radio" id="yes" value="1" name="s"><br>
+                <label for="não">NÃO</label>
+                <input type="radio" id="no" value="0" name="s">
+                
+        
+                <p id="not">Caso não desconsidere os campos abaixo! </p>
+                <label for="assunto">Assunto</label><br>
+                <input type="text" name="assunto" size="50%" maxlength="100"><br>
+                <label for="problema">Relate o problema</label><br>
+                <textarea name="problem" id="problema" maxlength="230" cols="50%" wrap="hard" ></textarea><br>
+                <label for="melhoria">Como podemos te ajudar?</label><br>
+                <textarea name="help" id="melhoria" maxlength="230" cols="50%" wrap="hard"></textarea><br>
+                <label for="func">Qual sua avaliar aos nossos funcionários?</label><br>
+                <input  type="number" placeholder="0 a 10" max="10" min="0">
+                <button type="submit">Envia Feedback</button>
+    
+    
+            </form>
+        </section>
+    </main>
+    <footer>Copyright &#169; 2024 <strong><a href="index.html">Programato</a></strong>. All right reserved.</footer>
+  
+</body>
+</html>
