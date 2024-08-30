@@ -44,12 +44,12 @@ header > #hprincipal{
 nav{
     background-color: #09184E;
     padding-bottom: 10px;
-    text-align: end;
+    text-align: center;
 }nav > a{
     font-family: var(--fonte2);
     font-size: 1.2em;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 10px;
     padding-top: 3px;
     color: rgb(255, 255, 255);
@@ -58,7 +58,7 @@ nav{
 nav > a:hover{
     background-color: #143AC3;
     border-radius: 10px;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 nav>#up{
     background-color: #ffffffea;
@@ -119,6 +119,13 @@ h3{
     padding-bottom: 20px;
 }
 p{
+    font: 1em var(--font6);
+    text-align: justify;
+    text-indent: 30px;
+    padding-bottom: 30px;
+    line-height: 1.5em;
+}
+#p{
     font: 1em var(--font6);
     text-align: justify;
     text-indent: 30px;

@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/favicon_io (1)/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/programato.02.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
     
+
     <title>Programator</title>
 </head>
 <body>
@@ -19,7 +20,8 @@
     <main>
         <article>
             <h1><strong>Programator:</strong> Transformando o Futuro da Programação</h1>
-            
+
+            <p id="p">...</p>
             <p>A Programator é uma empresa inovadora dedicada à formação de futuros programadores e desenvolvedores de software. Fundada em 2024, nossa missão é capacitar pessoas de todos os níveis de experiência a dominar as habilidades necessárias para prosperar no competitivo mercado de tecnologia. Com uma abordagem centrada na prática e no desenvolvimento contínuo, a Programator se posiciona como uma referência em educação em programação.</p>
             
             <h2>O que fazemos</h2>
@@ -54,13 +56,17 @@
             <p>A equipe de suporte ao aluno é dedicada a oferecer uma experiência de aprendizado excepcional, ajudando cada aluno a superar desafios e alcançar seus objetivos. Estamos comprometidos em criar um ambiente de aprendizado inclusivo e estimulante, onde todos têm a oportunidade de brilhar.</p>
 
             <p>Na Programator, acreditamos que a programação é a chave para o futuro e estamos aqui para garantir que você tenha as ferramentas e o conhecimento necessários para desbloquear esse futuro. Venha fazer parte dessa jornada conosco e transforme sua carreira em tecnologia!</p>
+            
         </article>
     </main>
     <footer>Copyright &#169; 2024 <strong>Programato</strong>. All right reserved.</footer>
     <script>
         window.alert('Tudo onkay?')
-        window.confirm('na paz?')
-        window.prompt('seu nome bb?')
+        window.confirm('Na paz?')
+        var nome = window.prompt('Seu nome bb?')
+        var p = window.document.getElementById('p')
+        p.innerText = `Seja muito bem vindo(a), ${nome}! `
+
     </script>
 </body>
 </html>

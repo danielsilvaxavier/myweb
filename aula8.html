@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+        <input type="number" name="n1" id="n1"> + 
+        <input type="number" name="n2" id="n2">
+        <input type="button" value="somar" onclick="somar()">
+        <p id="resultado">A soma total é: </p>
+        <p><img src="https://a-static.mlcdn.com.br/800x560/pc-gamer-cpu-completo-i5-8gb-ssd-240gb-monitor-19-kit-gamer-mrp-informatica/deutel/dmc01g/9b70d0167128a15fbc025564ef8cf530.jpeg" alt=""></p>
+        <p><a href="https://www.magazineluiza.com.br/pc-gamer-cpu-completo-i5-8gb-ssd-240gb-monitor-19-kit-gamer-mrp-informatica/p/bcajd36fhj/in/cptg/">seu pc</a></p>
+    
+
+    <script>
+        function somar(){
+
+        var n1 = window.document.getElementById('n1')
+        var n2 = window.document.getElementById('n2')
+        var recebe1 = Number(n1.value) /*vai fazer que a variavel recebe1 receba os valores dos inputs */
+        var recebe2 = Number(n2.value)
+        var res = window.document.getElementById('resultado')
+        var somatotal= recebe1 + recebe2
+        res.innerHTML = `A soma de ${recebe1} e ${recebe2} é igual a <strong>${somatotal}</strong>`
+        }
+
+
+        
+    </script>
+</body>
+</html>
